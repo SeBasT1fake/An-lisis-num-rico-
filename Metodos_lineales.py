@@ -1,3 +1,9 @@
+import sympy as sp
+import matplotlib.pyplot as plt
+import io
+import base64
+import numpy as np
+
 def forward_substitution(L, b):
     n = L.shape[0]
     z = np.zeros(n)
